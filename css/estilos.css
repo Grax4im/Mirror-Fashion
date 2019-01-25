@@ -17,3 +17,27 @@ body {
 color: #333333;
 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+.menu-opcoes ul li {
+display: inline;
+margin-left: 20px;
+}
+.sacola {
+padding-top: 8px;
+}
+.container {
+margin: 0 auto;
+width: 940px;
+}
+header {
+position: relative;
+}
+.menu-opcoes {
+position: absolute;
+bottom: 0;
+right: 0;
+}
+.sacola {
+position: absolute;
+top: 0;
+right: 0;
+}
