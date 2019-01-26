@@ -36,11 +36,9 @@ position: absolute;
 bottom: 0;
 right: 0;
 }
-
 .menu-opcoes a:hover{
 color: #007DC6;
 }
-
 .menu-opcoes a:active{
 color: #867DC6;
 }
