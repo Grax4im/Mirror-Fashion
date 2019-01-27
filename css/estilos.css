@@ -165,3 +165,18 @@ right: 0;
 float: left;
 margin-left: 25px;
 }
+
+.menu-departamentos li ul {
+display: none;
+}
+
+.menu-departamentos li:hover ul{
+display:block;    
+}
+
+.menu-departamentos ul ul li {
+background-color: #DCDCDC;
+}
+.menu-departamentos li li a:before {
+content: '- ';
+}
