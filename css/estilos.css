@@ -108,7 +108,7 @@ float: right;
 }
 .painel li {
 display: inline-block;
- vertical-align: top;
+vertical-align: top;
 width: 140px;
 margin: 2px;
 padding-bottom: 10px;
@@ -165,22 +165,15 @@ right: 0;
 float: left;
 margin-left: 25px;
 }
-
 .menu-departamentos li ul {
 display: none;
 }
-
 .menu-departamentos li:hover ul{
 display:block;    
 }
-
 .menu-departamentos ul ul li {
 background-color: #DCDCDC;
 }
-.menu-departamentos li li a:before {
-content: '- ';
-}
-
 .menu-departamentos li li a:before {
 content: '\272A';
 padding-right: 3px;
@@ -220,3 +213,51 @@ transform: scale(1.2) rotate(5deg);
 .painel li{
 transition: 0.7s;    
 }
+
+/* ESTILO PARA MOBILE */
+
+@media (max-width:320px) {
+
+    .container{
+        width:96%;
+    }
+    header h1 {
+    text-align: center;
+    }
+    header h1 img{
+    max-width: 50%;    
+    }
+    .sacola{
+    display: none;    
+    }
+    .menu-opcoes{
+    position: static;
+    text-align: center;
+    }
+    .menu-opcoes ul li {
+    display: inline-block;
+    margin: 5px;
+    }
+    .busca,
+    .menu-departamentos,
+    .banner-destaque img {
+    margin-right: 0;
+    width: 100%;
+    }
+    .painel{
+    width: auto;    
+    }
+    .painel li{
+    width:30%;    
+    }
+    .painel img{
+    width:100%;    
+    }
+    }
+    .busca{
+    text-align: center;
+    }
+    .busca input[type="search"]{
+    margin-left:10px;
+    margin-right:10px;
+    }
