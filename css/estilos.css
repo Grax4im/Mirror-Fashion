@@ -207,3 +207,19 @@ background: linear-gradient(#F5DCDC, #BEBEF4);
 .mais-vendidos {
 background: linear-gradient(#DCDCF5, #F4BEBE);
 }
+
+
+.painel li:hover {
+background-color: rgba(255,255,255,0.8);
+box-shadow: 0 0 5px;
+transition: 0.7s;
+transform: scale(1.2) rotate(-5deg);
+} 
+
+.painel li:nth-child(2n):hover{
+transform: scale(1.2) rotate(5deg);
+}
+
+.painel li{
+transition: 0.7s;    
+}
