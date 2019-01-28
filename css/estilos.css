@@ -70,7 +70,7 @@ color: #333333;
 text-decoration: none;
 }
 .busca input[type=search] {
-width: 170px;
+width: 150px;
 }
 .busca,
 .menu-departamentos {
@@ -216,8 +216,7 @@ transition: 0.7s;
 
 /* ESTILO PARA MOBILE */
 
-@media (max-width:320px) {
-
+@media(max-width:939px) {
     .container{
         width:96%;
     }
@@ -261,3 +260,4 @@ transition: 0.7s;
     margin-left:10px;
     margin-right:10px;
     }
+}
