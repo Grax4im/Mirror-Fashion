@@ -2,7 +2,6 @@ body {
 color: #333333;
 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-
 h2 {
 border-bottom: 2px solid #333333;
 }
@@ -59,4 +58,47 @@ text-indent: 0;
 
 :not(p) + p::first-line {
 font-variant: small-caps;
+}
+
+a{
+color: #003366;
+}
+a:hover{
+color:#007DC6;    
+}
+
+ h2{
+    text-align:center;
+    font-size:2em;
+    margin-bottom:2%;
+    }
+
+p{
+    padding:0;
+    margin-bottom:2%;
+    margin-left: 3%;
+    line-height: 1.4em;
+}
+li{
+    line-height: 2em;
+    margin-left:4%;
+    list-style:disc;
+}
+
+@media(max-width:939px) {
+  
+    #centro-distribuicao{
+        width:90%;
+    }
+    #centro-distribuicao img{
+    margin: 0;
+    max-width:90%;
+    padding:0;
+    }
+    h1{
+    margin-bottom:5%;    
+    }
+    #familia-pelho{
+    width:100%;
+    }
 }
