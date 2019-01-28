@@ -218,7 +218,7 @@ transition: 0.7s;
 
 @media(max-width:939px) {
     .container{
-        width:96%;
+    width:96%;
     }
     header h1 {
     text-align: center;
@@ -252,7 +252,6 @@ transition: 0.7s;
     .painel img{
     width:100%;    
     }
-    }
     .busca{
     text-align: center;
     }
@@ -260,4 +259,17 @@ transition: 0.7s;
     margin-left:10px;
     margin-right:10px;
     }
+    @media (min-width: 480px) {
+        header h1 {
+            margin: 5px 0;
+        }
+        .menu-departamentos {
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .menu-departamentos nav > ul {
+            column-count: 2;
+        }
+    }
 }
+
