@@ -53,11 +53,13 @@ margin-top: 2em;
 .produto h1 {
 font-size: 1.8em;
 font-weight: bold;
+text-align: center;
 }
 .produto p {
 font-size: 1.2em;.
 font-style: italic;
 margin-bottom: 1em;
+text-align: center;
 }
 .produto legend {
 display: block;
