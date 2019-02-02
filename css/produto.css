@@ -92,6 +92,9 @@ border: 6px solid rgba(0,0,0,0.1);
 .cores label::after {
 cursor: pointer;
 }
+.tamanho{
+margin-top:10px;
+}
 .detalhes {
 padding: 2em 0;
 }
