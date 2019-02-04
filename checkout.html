@@ -7,11 +7,13 @@
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/open-iconic-bootstrap.css">
+        <link rel="stylesheet" href="css/checkout.css">
+
     </head>
     <body>
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h1 class="display-4">Ótima escolha!</h1>
+                <h1 class="display-6">Ótima escolha!</h1>
                     <p class="lead">Obrigado por comprar na Mirror Fashion!
                     Preencha seus dados para efetivar a compra.</p>
             </div>
@@ -20,27 +22,36 @@
         <div class="container">
             <div class="card mb3">
                     <div class="card-header">
-                    Sua compra
+                        <h4>Sua compra</h3>
                     </div>
                 <div class="card-body">
                     <img class="img-thumbnail mb-3" src="img/produtos/foto1-verde.png" alt="Fuzzy Cardigan">
-                    <dl>
-                        <dt>Produto</dt>
-                        <dd>Fuzzy Cardigan</dd>
-                        <dt>Cor</dt>
-                        <dd>Verde</dd>
-                        <dt>Tamanho</dt>
-                        <dd>40</dd>
-                        <dt>Preço</dt>
-                        <dd>R$ 129,90</dd>
-                    </dl>
+                    <table class="table table-hover table-bordered">
+                        <tr>
+                        <td>Produto</td>
+                        <td>Fuzzy Cardigan</td>
+                        </tr>
+                        <tr>
+                        <td>Cor</td>
+                        <td>Verde</td>
+                        </tr>
+                        <tr>
+                        <td>Tamanho</td>
+                        <td>40</td>
+                        </tr>
+                        <tr>
+                        <td>Preço</td>
+                        <td>R$ 129,90</td>
+                        </tr>
+                    </table>
+                
             </div><!-- fim .card-body -->
             <form>
                 <fieldset>
                     <legend>Dados Pessoais</legend>
                     <div class="form-group">
                         <label for="nome">Nome completo</label>
-                        <input type="text" class="form-control" id="nome" name="nome" autofocus>
+                        <input type="text" class="form-control" id="nome" name="nome" autofocus required>
                     </div>
                     
                    <div class="form-group">
@@ -56,7 +67,7 @@
                     
                     <div class="form-group">
                         <label for="cpf">CPF</label>
-                        <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00">
+                        <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" required>
                     </div>
                         
                     <div class="form-group custom-control custom-checkbox">

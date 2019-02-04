@@ -1,0 +1,7 @@
+.form-control:invalid {
+    border: 1px solid #CC0000;
+}
+
+td:not(:nth-child(2n) ){
+    font-weight: bold;
+}
