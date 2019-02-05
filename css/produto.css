@@ -191,3 +191,12 @@ font-size: 1.2em;
             width: 45%;
         }
 }
+
+.tamanho output{
+    display:inline-block;
+    height: 44px;
+    widows: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: #555;
+}
