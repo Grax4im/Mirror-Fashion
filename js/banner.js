@@ -10,14 +10,11 @@ var x = 0;
 
 imagemBanner.onclick = function () {
     if(x==0) { 
-        clearInterval(timer);
-        
-        alert('hm...');
+        clearInterval(timer);   
         x=1
         }
     else{
         timer = setInterval(trocaBanner, 4000);
-        alert('dois...');
         x=0;
     }
 }
